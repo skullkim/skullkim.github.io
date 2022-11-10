@@ -7,18 +7,548 @@ multilingual: true
 ---
 
 {% include multilingual-sel.html %}
+<style>
+    p {
+        margin-bottom: 0;
+    }
 
-<!-- Chinese Version -->
-<div class="zh post-container">
-    {% capture about_zh %}{% include about/zh.md %}{% endcapture %}
-    {{ about_zh | markdownify }}
-</div>
+    a {
+        text-decoration: underline;
+    }
 
-<!-- English Version -->
-<div class="en post-container">
-    {% capture about_en %}{% include about/en.md %}{% endcapture %}
-    {{ about_en | markdownify }}
-</div>
+    .text-indent {
+        text-indent: 10%;
+    }
+
+    .column-list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .column {
+        padding: 0 1em;
+    }
+
+    .column:first-child {
+        padding-left: 0;
+    }
+
+    .column:last-child {
+        padding-right: 0;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid rgba(55, 53, 47, 0.09);
+        border-collapse: collapse;
+    }
+
+    table {
+        border-left: none;
+        border-right: none;
+    }
+
+    th,
+    td {
+        font-weight: normal;
+        padding: 0.25em 0.5em;
+        line-height: 1.5;
+        min-height: 1.5em;
+        text-align: left;
+    }
+
+    th {
+        color: rgba(55, 53, 47, 0.6);
+    }
+
+    ol,
+    ul {
+        margin: 0;
+        margin-block-start: 0.6em;
+        margin-block-end: 0.6em;
+    }
+
+    li > ol:first-child,
+    li > ul:first-child {
+        margin-block-start: 0.6em;
+    }
+
+    ul > li {
+        list-style: disc;
+    }
+
+    ul.to-do-list {
+        text-indent: -1.7em;
+    }
+
+    ul.to-do-list > li {
+        list-style: none;
+    }
+
+    .to-do-children-checked {
+        text-decoration: line-through;
+        opacity: 0.375;
+    }
+
+    ul.toggle > li {
+        list-style: none;
+    }
+
+    ul {
+        padding-inline-start: 1.7em;
+    }
+
+    ul > li {
+        padding-left: 0.1em;
+    }
+
+    ol {
+        padding-inline-start: 1.6em;
+    }
+
+    ol > li {
+        padding-left: 0.2em;
+    }
+
+    .mono ol {
+        padding-inline-start: 2em;
+    }
+
+    .mono ol > li {
+        text-indent: -0.4em;
+    }
+
+    /* Indent toggle children */
+    .toggle > li > details {
+        padding-left: 1.7em;
+    }
+
+    .toggle > li > details > summary {
+        margin-left: -1.1em;
+    }
+</style>
+<body>
+<article id="01db39bc-3ea4-4dbc-ad03-f786c989e389" class="page sans">
+    <h1 class="page-title">김윤기</h1></header>
+    <div class="page-body"><h2 id="db1a36cc-0865-46e7-a689-497420c2345c" class="">Back-End Developer</h2>
+        <p id="32f71e77-1011-448d-9f6f-9009074208fe" class="">
+        </p>
+        <p id="c4a0ca81-d952-4f19-9760-3d6fbe819f99" class="block-color-gray">📧 kyk990328@gmaill.com 📞 010-3687-1878
+            📍<a href="https://github.com/skullkim">github</a> ✍<a href="https://iskull-dev.tistory.com/">Blog</a> 🔗<a
+                    href="https://www.linkedin.com/in/%EC%9C%A4%EA%B8%B0-%EA%B9%80-36a385239/">LinkedIn</a></p>
+        <p id="15f6bbde-85fd-4813-a7a8-a3acbb37c268" class="">
+        </p>
+        <blockquote id="4f1c73c2-46f9-4411-a901-25b84ba56f04" class="">Backend 개발자가 되기 위해 끊임없이 노력하고 있는 학생입니다. 더 많고, 더 빠른
+            성장을 위해 여러 개인 프로젝트를 진행했으며 공부한 내용들을 <strong><a href="https://www.skullkim-dev.com/">블로그</a></strong>에 정리하고
+            이해하며 공부하고 있습니다.
+        </blockquote>
+        <blockquote id="fbd7be79-b402-4d6a-940d-b8ec8495137c" class="">백엔드 개발자가 되고 싶지만 백엔드만 공부하는 것을 선호하지는 않습니다. “백엔드
+            개발자도 결국엔 개발자다.”라는 생각으로 공부를 하고 있습니다. 그 때문에 백엔드에 국한된 <em>지식뿐만 </em>아니라 프론트, CS 지식을 공부하는 것도 좋아합니다. 따라서 현재는 “성공과
+            실패를 결정하는 1%의 네트워크원리”를 읽으면서 네트워크를 깊게 공부하고 있습니다.
+        </blockquote>
+        <p id="997dce18-11c6-4e5f-9ef9-55e1ce71f51e" class="">
+        </p>
+        <hr id="3fdbf4d3-93c8-4414-929a-7b60683aca92"/>
+        <h3 id="bff8909c-bc7f-4a01-8bf9-c194d357fa47" class="highlight-pink">
+            <!--            <mark class="highlight-pink">프로젝트</mark>-->
+            프로젝트
+        </h3>
+        <div id="3f2c6d9b-3ccb-4221-81ed-c5044b720f3a" class="column-list">
+            <div id="b6afcbbe-55f3-41c9-a0c5-6cee06d6b869" style="width:31.25%" class="column"><p
+                    id="bb5f53dc-3d12-47d0-8a1a-104dafc110c8" class=""><strong>프로젝트 이름</strong></p>
+                <p id="55f0164d-1971-4528-9df2-6141d008b680" class=""><a
+                        href="https://github.com/woowacourse-teams/2022-thankoo">Thankoo</a></p>
+                <p id="42b68bd7-cb3d-4e23-bc99-bb70071052ac" class="">
+                </p>
+                <p id="e2d8f7e9-92bc-4549-9e20-422a305ed80c" class="">기술스택</p>
+                <p id="daa1dd49-80a0-40c2-9978-71ef19203f3e" class="">Backend:</p>
+                <ul id="6ba940dd-0680-43cf-929f-114754030a83" class="bulleted-list">
+                    <li style="list-style-type:disc">Spring Boot</li>
+                </ul>
+                <ul id="0945f7a9-75b3-452e-b0b5-15e4c80d3d32" class="bulleted-list">
+                    <li style="list-style-type:disc">Mysql</li>
+                </ul>
+                <ul id="57580552-87dd-4c45-82df-35784169a399" class="bulleted-list">
+                    <li style="list-style-type:disc">JPA</li>
+                </ul>
+                <ul id="ec2fe4ff-39bc-4ee7-9bcb-22366e0f303b" class="bulleted-list">
+                    <li style="list-style-type:disc">AWS EC2</li>
+                </ul>
+                <ul id="43069ffa-bc0c-4557-a72a-363b3cfe5725" class="bulleted-list">
+                    <li style="list-style-type:disc">Nginx</li>
+                </ul>
+                <ul id="5dd13120-2f69-48ad-b1d4-0df688e81833" class="bulleted-list">
+                    <li style="list-style-type:disc">Jenkins</li>
+                </ul>
+                <ul id="006afa88-d396-418f-9c94-f9c81b7d4a0a" class="bulleted-list">
+                    <li style="list-style-type:disc">React (back office)</li>
+                </ul>
+                <p id="da7dc69e-b5bd-4cbc-8ac1-1c05df9bcda2" class="">
+                </p>
+                <p id="12c04c90-1bbc-4d24-8eb7-9dce5bc0c936" class="">스프린트 영상:</p>
+                <ul id="13bb8c78-ae58-48ad-bd78-6b16348dc036" class="bulleted-list">
+                    <li style="list-style-type:disc"><a href="https://www.youtube.com/watch?v=4YsK4z3q2DI&amp;t=218s">1차
+                        스프린트</a></li>
+                </ul>
+                <ul id="e1cb4bae-0556-4532-9bc6-2cef34e14ab9" class="bulleted-list">
+                    <li style="list-style-type:disc"><a href="https://www.notion.so/dd9c2a10dc254a1a93c339317f197914">2차
+                        스프린트</a></li>
+                </ul>
+                <ul id="88e85596-6eb8-46ea-8525-0496f513f2e2" class="bulleted-list">
+                    <li style="list-style-type:disc"><a href="https://www.youtube.com/watch?v=gh6KwrB3oX0&amp;t=3s">3차
+                        스프린트</a></li>
+                </ul>
+                <ul id="874bf221-365b-4180-b1a7-a939b3c24b4c" class="bulleted-list">
+                    <li style="list-style-type:disc"><a href="https://www.youtube.com/watch?v=TCiGf6nsG3E">4차 스프린트</a>
+                    </li>
+                </ul>
+                <p id="00199541-e2ed-4543-9dd6-146869ad7dca" class="">
+                </p></div>
+            <div id="17a44ff6-55d2-4f3f-815b-8d9e48cc65f1" style="width:68.75%" class="column">
+                <figure id="4c32ec6b-bcd9-47f5-b0f3-43f2d7babb86" class="image"><a
+                        href="/img/about/thankoo.png"><img
+                        style="width:128px"
+                        src="/img/about/thankoo.png"/></a>
+                </figure>
+                <p id="889ad53f-bb40-4e67-b601-c437ffd79816" class="">
+                </p>
+                <p id="6ccc0c2e-1a81-4f3c-9327-bc7c2e97519b" class=""><strong>프로젝트 소개</strong></p>
+                <p id="cb30e052-289b-4a29-95be-326a0593f343" class="">· 우아한테크코스 내에서 쿠폰을 주고받는 문화를 디지털 트랜스포메이션한
+                    서비스입니다.</p>
+                <p id="7fbccb69-9c77-4004-a57a-b6113d607a61" class="">· 인원: 백엔드 - 4명, 프론트엔드 - 2명</p>
+                <p id="a7181653-e687-441c-8447-127b7414ccda" class="highlight-gray">· 개발기간:
+                    <!--                    <mark class="highlight-gray">2022.07 ~2022.10</mark>-->
+                    2022.07 ~ 2022.10
+                </p>
+                <p id="6b684b18-f8f8-4dbc-8733-f8e911f0ddfc" class="">
+                </p>
+                <p id="4ecd2bff-66e9-4827-b286-ab90489c6d04" class=""><strong>내가 기여한일</strong></p>
+                <p id="a7960729-e735-4497-838f-336cb41c8edd" class="">· 리액트를 이용한 백오피스 구축
+                <div class="indented"><p id="bd36b2f4-0a50-4582-a1fc-9ee6ea623245" class="text-indent">· <a
+                        href="https://github.com/2022-thankoo/thankoo-admin-page">백오피스 레파지토리</a></p></div>
+                </p><p id="f780dd7f-ace8-4ef6-9df8-ccca4ea62d60" class="">· Nginx를 이용한 정적 파일 캐싱과 WAS gzip 압축을 통한 성능
+                개선</p>
+                <p id="8e6c7fc4-afc5-45b9-a1ca-5e00f25ec43d" class=""> · 정적 파일 캐싱을 통해 정적파일 로딩속도 55% 개선</p>
+                <p id="6de45f16-56cd-401a-8a69-0077e5769d35" class="">· DB 백업을 통한 데이터 관리
+                <div class="indented"><p id="90c8b657-2606-4006-ac0f-279e9b1b73da" class="">· mysqldump, cron, shell
+                    script를 활용해 DB 데이터 백업 자동화</p></div>
+                <p id="6bdd9fc0-36d7-468e-ae60-de6e1aa33f1c" class="">· 어드민 API 구현</p>
+                <div class="indented"><p id="f00c2180-6e15-4d08-993e-6178a8249684" class="">
+                    <p class="text-indent">· 조직 조회 및 생성</p>
+                    <p id="8b047cb2-8e47-4edc-ae7e-4789c4bcce55" class="text-indent">· 어드민 로그인</p>
+                    <p id="ae45bb80-7806-4694-830b-7c03bd75bb17" class="text-indent">· 어드민 API 예외 핸들링 로직</p></div>
+                </p><p id="0cb0c3e0-9e3a-449c-8146-104852fd698f" class="">· 일반 유저용 API 구현
+                <div class="indented">
+                    <p id="f4d7ef2b-9372-4cb9-bdf9-702bf122edbe" class="text-indent">· 프로필 사진 목록 조회 및 수정</p>
+                    <p id="83630a6b-fe6e-44f0-8d4e-da383a6aa789" class="text-indent">· 미팅 생성</p>
+                    <p id="9aaa351c-51d3-4920-8ecb-62d3e2c7a0e9" class="text-indent">· 구글 Oauth 로그인</p>
+                    <p id="a9fcd231-06b5-4526-974f-6e20a5491fda" class="text-indent">· 회원 전체 조회</p>
+                    <p id="16d4585a-5ada-4f19-ae37-15fcea2007b0" class="text-indent">· 쿠폰 발급 및 조회</p>
+                </div>
+                <p id="ecdc7f95-8294-48be-af1b-94f7ccabdca9" class="">· CORS 설정</p>
+                <p id="121af3ea-a92f-4bb0-bfb4-3b527d45242d" class="">· 기타 구현 사항
+                <div class="indented"><p id="4a8b06d4-ec9a-4e5e-8fee-c4b661e9f04c" class="">· AWS cloud watch</p>
+                    <p id="f06ae62f-b474-4499-946a-2eff32e81527" class="">· ufw 설정</p>
+                    <p id="d9f846e3-f9b9-4f19-88b7-421d4dadff01" class="">· AWS EIP 설정</p>
+                    <p id="d91ee64f-8a0c-4bc5-9388-f0f9fd9533ce" class="">· 기술블로그 구축</p></div>
+                </p><p id="2fa6bed4-4963-43e5-92ea-62ad6e5ae983" class="">
+            </p>
+                <p id="2dc9d4be-ecf9-4ac2-b53a-86608fb68e15" class="">
+                </p></div>
+        </div>
+        <div id="04c274fc-c70c-4a84-8917-7f2f730b65ae" class="column-list">
+            <div id="542b70c5-2699-4d1e-90f9-bf221612f24a" style="width:31.25%" class="column"><p
+                    id="c6e757c1-0ff6-44c7-ba4f-8e73ccd60319" class=""><strong>프로젝트 이름</strong></p>
+                <p id="8565eae4-b4fb-49f8-8eaf-65c6bb099b87" class=""><a
+                        href="https://github.com/skullkim/woowa-course-level1">woowa-course-level1</a></p>
+                <p id="1ca90bf8-e500-4eb5-a2b1-7446adc68567" class="">
+                </p>
+                <p id="a2673798-57ac-4256-a915-0438afa9c9de" class="">기술스택</p>
+                <ul id="4e7e1e56-031f-4b7e-a593-d10b617244fb" class="bulleted-list">
+                    <li style="list-style-type:disc">java</li>
+                </ul>
+                <ul id="60d59159-4181-4f2b-a50d-b518477722c6" class="bulleted-list">
+                    <li style="list-style-type:disc">Junit5</li>
+                </ul>
+                <ul id="055ccd24-8fc8-4340-a36a-540282ffcebf" class="bulleted-list">
+                    <li style="list-style-type:disc">TDD</li>
+                </ul>
+                <ul id="54dcf0a3-2d32-428b-b87d-ea33b7ffb3dc" class="bulleted-list">
+                    <li style="list-style-type:disc">OOP</li>
+                </ul>
+                <p id="a83f5e15-4382-45d8-aec1-2d8459c5bc5b" class="">
+                </p></div>
+            <div id="3bf54006-4293-4c3e-8e06-aeb62ce5f3a4" style="width:68.75%" class="column"><p
+                    id="6726c11a-f0ef-428a-8513-db0b022f9afe" class=""><strong>프로젝트 소개</strong></p>
+                <p id="3b4946ae-1821-49ad-b6c3-c59434a3c557" class="">· 우아한테크코스 레벨1 기간 동안 진행했던 미션 모음입니다.</p>
+                <p id="3eb567e7-4c80-4059-b94d-debcdd08bb2e" class="">· 순수 자바만을 사용해 미션을 해결해 나가면서 객체지향과 TDD에 대해 깊게 공부해 볼
+                    수 있는 기회였습니다.</p>
+                <p id="ccad3235-502d-4573-ab04-ae8cb850621d" class="">· 실무 2,3년차 개발자분들에게 코드 리뷰를 받고, 질문을 하면서 보다 유지 보수성이
+                    높고, 깔끔한 코드를 작성하는 방법을 익혔습니다.</p>
+                <p id="79d08364-3992-4e73-8a87-a9efa706ca0f" class="">
+                </p>
+                <p id="3cec717f-2412-4dc5-a304-32e12ea9776f" class="">
+                </p>
+                <p id="f66682fa-7a1d-4463-a356-5d8cdf58b6d3" class="">
+                </p>
+                <p id="ec4a24bb-4108-4d63-82d4-2dbb5082dcb1" class="">
+                </p></div>
+        </div>
+        <div id="60a4a314-0734-44b6-8513-482d165396ed" class="column-list">
+            <div id="37bb3d2a-869c-4d9c-946e-91f0c8568f47" style="width:31.25%" class="column"><p
+                    id="218b3f11-a47a-4d6c-adf4-3bb098aa1559" class=""><strong>프로젝트 이름</strong></p>
+                <p id="68e687f8-6fb5-4f43-bbd0-dd9a11f5b259" class=""><a
+                        href="https://github.com/skullkim/metro-map-production">metro-map-production</a></p>
+                <p id="65dc5e91-414c-4a30-8107-515516beb35c" class="">
+                </p>
+                <p id="b88a1c16-53bf-4ae8-ae15-39571464737f" class="">기술스택</p>
+                <ul id="670c5063-3145-43e2-b589-af75b11c851c" class="bulleted-list">
+                    <li style="list-style-type:disc">Express</li>
+                </ul>
+                <ul id="ef02867c-beb2-4dfe-ab29-c7016d0dab02" class="bulleted-list">
+                    <li style="list-style-type:disc">Mysql</li>
+                </ul>
+                <ul id="a3e1280e-0066-4745-8133-6a50ebe0bd54" class="bulleted-list">
+                    <li style="list-style-type:disc"> React</li>
+                </ul>
+                <ul id="f6e44453-45be-485f-83d8-2b23ff037401" class="bulleted-list">
+                    <li style="list-style-type:disc"> JWT</li>
+                </ul>
+                <ul id="990f4e10-0cb3-4ecc-a52a-94c05a69dcfb" class="bulleted-list">
+                    <li style="list-style-type:disc"> Docker</li>
+                </ul>
+                <ul id="fe102e7a-a61c-4c2f-b6ac-3152813bb52f" class="bulleted-list">
+                    <li style="list-style-type:disc"> Nginx</li>
+                </ul>
+                <ul id="5a6f7596-c12a-4b63-90e7-31a5741d1b2c" class="bulleted-list">
+                    <li style="list-style-type:disc"> HTTPS</li>
+                </ul>
+                <p id="ecf8ff7b-c67e-4dda-936a-96e6ed3c8e70" class="">
+                </p>
+                <p id="13df1feb-865b-4644-9926-34ad9ef30340" class="">
+                </p></div>
+            <div id="839e93bb-caa2-4935-8bb2-1327eb55cf66" style="width:68.75%" class="column"><p
+                    id="5734b6e4-ba7b-4958-9b9d-a0c5390460c6" class=""><strong>프로젝트 소개</strong></p>
+                <p id="97ae1282-5558-4d21-a10d-a6acc063cbe3" class="">· 지하철 노선도 서비스입니다.</p>
+                <p id="cbf71203-2fa8-4ee6-9fe4-59ea708a9e6c" class="">· 이 프로젝트를 진행하면서 코드가 너무 난잡하다고 느끼게 되어 처음으로 깔끔한 코드와
+                    좋은 설계에 대해 고민을 하게 해준 프로젝트입니다. </p>
+                <p id="638d26c5-9ae9-4c65-b9c0-844ec7c28e18" class="">· 프로젝트를 진행하면서 웹의 전반적인 플로우를 겪어보고 싶다는 생각이 들었습니다. 그에
+                    따라, 집에 서버를 직접 설치하고 docker를 사용해 배포를 진행했습니다.</p>
+                <p id="23ef8f31-859d-409d-af92-4e1e56cbf22b" class="">· 인원: 1 명</p>
+                <p id="81d25308-e19b-46e5-b694-cba1f4c4338e" class="highlight-gray">· 개발기간:
+                    <!--                    <mark class="highlight-gray">2021.09 ~2021.11</mark>-->
+                    2021.09 ~ 2021.11
+                </p>
+                <p id="710ea150-4a65-48ab-b75b-b4df88158d77" class=""><a
+                        href="https://www.youtube.com/watch?v=8nzuOlig7pc&amp;t=527s">프로젝트 시연 영상 바로가기</a></p></div>
+        </div>
+        <hr id="afcc18b8-7026-4402-b0d3-483898c92849"/>
+        <div id="8858d1f7-c444-4207-b866-acc83ebc7bb9" class="column-list">
+            <div id="0b6b64d6-51da-43c3-b67c-605099c156d7" style="width:37.5%" class="column">
+                <h3 id="b38851f0-da39-424a-881b-2832738eb17c" class="highlight-pink">
+                    <!--                    <mark class="highlight-pink">스킬</mark>-->
+                    스킬
+                </h3>
+                <p id="02495876-2ae2-42cb-97a7-00404cb60a88" class="">
+                </p>
+                <p id="486d9f36-6922-4973-bec6-df443918c0d3" class="">
+                </p></div>
+            <div id="d408cb10-3868-4fc0-8ea2-a17c2e782004" style="width:62.5%" class="column"><p
+                    id="b79f30c4-89c3-4bb1-9317-a78991c40765" class=""><strong>Back-end:</strong></p>
+                <ul id="873edfe8-146c-4da7-80a3-e50a88421a64" class="bulleted-list">
+                    <li style="list-style-type:disc">Java - spring, spring boot</li>
+                </ul>
+                <ul id="707af146-909f-463d-831b-48f0f6032da7" class="bulleted-list">
+                    <li style="list-style-type:disc">Junit5, AssertJ, RestAssured</li>
+                </ul>
+                <ul id="95c6ee85-db0f-426d-81ba-9357398cb346" class="bulleted-list">
+                    <li style="list-style-type:disc">RestDocs</li>
+                </ul>
+                <ul id="fd99e780-6987-4b91-909e-5c8567c3d2a5" class="bulleted-list">
+                    <li style="list-style-type:disc">Nodejs - Express</li>
+                </ul>
+                <p id="b4f3d672-93a2-4866-8bc9-62d18a1c5b2b" class=""><strong>DevOps:</strong></p>
+                <ul id="6143794e-97af-4909-a089-a71e579f9a16" class="bulleted-list">
+                    <li style="list-style-type:disc">AWS EC2</li>
+                </ul>
+                <ul id="a724b7b5-515b-4ca1-ba85-a870fec0f69a" class="bulleted-list">
+                    <li style="list-style-type:disc">Nginx</li>
+                </ul>
+                <ul id="866ccbe4-9239-4d73-9302-302edeeb7381" class="bulleted-list">
+                    <li style="list-style-type:disc">Docker</li>
+                </ul>
+                <p id="22a0f119-31f4-400f-bfee-b8de3525adcf" class=""><strong>Front-end:</strong></p>
+                <ul id="39496914-c826-4df5-8f1c-eabc639c923c" class="bulleted-list">
+                    <li style="list-style-type:disc">React</li>
+                </ul>
+                <ul id="b5982584-ceb4-4853-bcb1-50f524eae6ba" class="bulleted-list">
+                    <li style="list-style-type:disc">HTML, CSS, JS</li>
+                </ul>
+                <p id="e6be6589-f5f1-49a8-a1cb-80dec55bb444" class="">기타 툴<strong>:</strong></p>
+                <ul id="cfb0d1f8-d3db-4128-b7de-d05ce4e3da57" class="bulleted-list">
+                    <li style="list-style-type:disc">Vim</li>
+                </ul>
+                <ul id="310fb8b1-100a-4e31-ac95-d19bf3f19379" class="bulleted-list">
+                    <li style="list-style-type:disc">Git</li>
+                </ul>
+                <ul id="18d90e10-4a9f-4ea3-bcd3-16dba6a26527" class="bulleted-list">
+                    <li style="list-style-type:disc">Slack</li>
+                </ul>
+                <ul id="f8086614-7cbe-4b33-9d69-07af0bb8acc4" class="bulleted-list">
+                    <li style="list-style-type:disc">Notion</li>
+                </ul>
+                <ul id="c9ebbf8e-db1e-4c2e-8cf3-5921a3522fe3" class="bulleted-list">
+                    <li style="list-style-type:disc">Figma</li>
+                </ul>
+            </div>
+        </div>
+        <hr id="5edbb770-e6c3-476c-b82b-358e08f8c4b4"/>
+        <h3 id="6b988e8f-b6c3-41ae-97d9-a1cda029a68f" class="highlight-pink">
+            <!--            <mark class="highlight-pink">대외활동</mark>-->
+            대외활동
+        </h3>
+        <div id="c80ff3e0-a810-4d9d-96dc-6cd84f219981" class="column-list">
+            <div id="48cd9b70-f44b-41d6-80e5-6a633c0977b8" style="width:31.25%" class="column">
+                <p id="10e3ae6f-a40d-4c54-b021-1bf5ef30c4ed" class="highlight-gray">
+                    <strong>
+                        백엔드 4기
+                    </strong>
+                    <br>
+                    2022.02 - 현재
+                    <!--                    <mark class="highlight-gray">2022.02 - 현재</mark>-->
+                </p>
+                <p id="3495a27b-cce3-407e-abf2-4a1ac001f67f" class="">
+                </p>
+                <p id="f12dae35-9eb2-44dc-b369-5b037462ea57" class="">
+                </p></div>
+            <div id="a5c389c5-f0e8-4bf7-b8ea-6f60703179da" style="width:68.75%" class="column"><p
+                    id="0b9d83fd-9f27-4e8e-88e4-06b2c60cbd37" class=""><strong>우아한테크코스</strong></p>
+                <p id="82f9ce9e-ae8c-4a1e-be30-4a91d5431731" class="">· 우아한테크코스를 진행하면서 정말 많은 지식들을 알게 되었습니다. 답이 정해져 있는
+                    지식뿐만 아니라, 답이 없는 설계에 대한 고민 역시 많이 할 수 있었습니다.</p>
+                <p id="5ba6621e-6466-45b6-9055-25b2a5eaec6a" class="">· 또 한, 많은 크루들, 코치분들과 교류하면서 소프트스킬을 익히고, 페어 프로그래밍과 팀
+                    프로젝트를 하면서 같이 일을 하는 것에 익숙해질 수 있던 활동이었습니다.</p>
+                <p id="223bdafd-f2c6-4549-81b6-85d1301a557e" class="">· 우아한테크코스 활동 기간 동안 열정 있는 크루들과 같이 많은 공부를 하고 싶어서 여러
+                    스터디를 개최했었습니다. 제가 개최했던 스터디 목록은 다음과 같습니다.
+                <div class="indented"><p id="1f34b4ef-f287-4146-82b9-934077a27215" class="">· 책 “모던 자바 인 액션” 스터디</p>
+                    <p id="247f0749-5d2d-40a5-8f91-f46e2b40d873" class="">· 스프링 스터디</p>
+                    <p id="dcbce77b-8507-42df-b4f4-987854fabf29" class="">· 네트워크 스터디</p>
+                    <p id="f311cc73-d3bb-4dd3-851b-a1645cdff715" class="">· 백준 알고리즘 스터디</p>
+                    <p id="bee13537-c1f8-4121-89b0-23920d80baa7" class="">
+                    </p></div>
+                </p></div>
+        </div>
+        <div id="d089bb10-c646-4714-b374-0af4fa2c3eb5" class="column-list">
+            <div id="66dba0d7-856c-4382-9c70-0ac6fbcf0413" style="width:31.25%" class="column">
+                <p id="2efa2453-0684-4941-80bc-ff74d1ecc6cb" class="highlight-gray">
+                    <strong>
+                        9기 회원
+                    </strong>
+                    <br />
+<!--                    <mark class="highlight-gray">2021.03 - 2021.12</mark>-->
+                    2021.03 - 2021.12
+                </p>
+                <p id="3dcf66d3-7078-4e75-a28a-1dfb994a6ed5" class="">
+                </p></div>
+            <div id="6190bf27-744c-43e9-9a60-5a4bf8ea8ea5" style="width:68.75%" class="column"><p
+                    id="433a2eff-d900-4d18-ae00-aceb5e6c4bf5" class=""><strong>명지대학교 멋쟁이사자처럼</strong></p>
+                <p id="b47dd36c-31b5-4211-9ce5-5b9d0f338a11" class="">· 멋쟁이사자처럼 활동을 하면서 현업 프론트엔드 개발자를 만나 리액트를 공부할 수 있게
+                    되었습니다.</p>
+                <p id="d659296c-5ff4-4582-a470-f50f5e3975c3" class="">· 그로 인해 멋사 해커톤과 개인 프로젝트에서 리액트를 적용해 볼 수 있게
+                    되었습니다.</p>
+                <p id="3efe5b5a-6a51-46c5-bef3-8b84559cf0f9" class="">· 멋쟁이사자처럼 해커톤을 하면서, 리액트 스터디를 하면서 다른 분들과 교류하며 모르는
+                    것을 알려주며 일을 진행했습니다.</p></div>
+        </div>
+        <hr id="a9a0af2a-c96b-4955-8900-6b042340b048"/>
+        <h3 id="a14d3c48-1b3d-47ea-9056-6e4f3345891c" class="highlight-pink">
+            기사와 발표
+<!--            <mark class="highlight-pink">기사와 발표</mark>-->
+        </h3>
+        <ul id="d863764a-a492-48d2-a591-94cefa4b52a4" class="bulleted-list">
+            <li style="list-style-type:disc"><a href="https://www.youtube.com/watch?v=sS-_Xr5Q4V4&amp;feature=youtu.be">유투브
+                테코톡: 람다 (조회수: 2.4 천회)</a></li>
+        </ul>
+        <ul id="8df3dae6-e0c4-4359-9734-ffecbda1c9c5" class="bulleted-list">
+            <li style="list-style-type:disc"><a href="https://m.sedaily.com/NewsVIew/263EHOIR7Q#cb">서울 경제 인터뷰: 그 귀하다는
+                개발자, 직접 키웁니다.</a></li>
+        </ul>
+        <ul id="88d3738f-f8d2-4aa1-82d7-4798b67167b5" class="bulleted-list">
+            <li style="list-style-type:disc"><a href="https://www.instagram.com/p/CfqEx_ZPJCv/?igshid=YmMyMTA2M2Y=">명지대
+                멋쟁이 사지처럼 10기 멘토링: 개발 공부법</a></li>
+        </ul>
+        <ul id="12ab466e-1ac7-4e2b-8e96-af6ec30374e8" class="bulleted-list">
+            <li style="list-style-type:disc"><a href="https://www.youtube.com/watch?v=4YsK4z3q2DI&amp;t=218s">우아한테크코스
+                땡쿠프로젝트 1차 스프린트 발표</a></li>
+        </ul>
+        <ul id="f92d631b-7ab7-4a19-93d5-e11c78cceab2" class="bulleted-list">
+            <li style="list-style-type:disc"><a href="https://www.youtube.com/watch?v=RiL-kPRmMKE&amp;t=3895s">우아한테크코스
+                5기 온라인 설명회</a></li>
+        </ul>
+        <ul id="f158fbd2-8e3b-40be-a783-37aaf0369732" class="bulleted-list">
+            <li style="list-style-type:disc"><a href="https://www.youtube.com/watch?v=EwfMpd-htgY">[우테코 인터뷰 챌린지] 프롤로그팀을
+                소개합니다!</a></li>
+        </ul>
+        <hr id="edbe242e-1d33-4f5b-b347-2f858a7e3622"/>
+        <h3 id="4d5845e5-3106-43a1-b673-e426fc964fa2" class="highlight-pink">
+            수상
+<!--            <mark class="highlight-pink">수상</mark>-->
+        </h3>
+        <ul id="30224214-ee12-4eff-b44a-01635b7560d8" class="bulleted-list">
+            <li style="list-style-type:disc">명지대학교 코딩경진대회 - 우수상 (2018)</li>
+        </ul>
+        <hr id="17e3d711-d3ef-4301-8f4a-c31aac74bff0"/>
+        <h3 id="61a2e419-e63e-4fcf-bb8b-5ab514b6b827" class="highlight-pink">
+            학력
+<!--            <mark class="highlight-pink">학력</mark>-->
+        </h3>
+        <div id="af788dd8-8328-4b4d-85fc-8f50a17a4707" class="column-list">
+            <div id="5e5d1b53-48f6-406e-88f6-9f8269a56d68" style="width:31.25%" class="column"><p
+                    id="29c226ba-59a3-412a-bfed-de5bc43a49c7" class=""><strong>컴퓨터공학과 </strong></p></div>
+            <div id="389dbf3d-4413-4377-9313-c74e7bf7361c" style="width:68.75%" class="column">
+                <p id="e1ea7a06-efaf-4387-8f11-0b274f30f3f7" class="highlight-gray"><strong>명지대학교 (휴학 중)
+                </strong>
+                    2018 ~ 현재
+<!--                    <mark class="highlight-gray">2018 ~ 현재</mark>-->
+                </p>
+            </div>
+        </div>
+        <hr id="c4ad67be-c646-49e0-94f2-6e44e0aef616"/>
+        <h3 id="3336f660-b19b-4d9a-b00e-f5a85a61da3d" class="highlight-pink">
+            언어
+<!--            <mark class="highlight-pink">언어</mark>-->
+        </h3>
+        <ul id="e518faa9-1791-4fa2-97f5-5e5df447ec91" class="bulleted-list">
+            <li style="list-style-type:disc">영어: TOEIC SPEAKING - 6/140 (2021)</li>
+        </ul>
+        <ul id="82c2bc08-4d46-4880-b9f0-55b19d19823e" class="bulleted-list">
+            <li style="list-style-type:disc">중국어: HSK 6 - 258 (2018)</li>
+        </ul>
+        <hr id="255f9373-517d-4506-a769-5b631f2b94c6"/>
+        <h3 id="e6dd97ea-d50c-4795-977e-e8f99f18144f" class="highlight-pink">
+<!--            <mark class="highlight-pink">병력</mark>-->
+            병력
+        </h3>
+        <ul id="d2de05d6-8d89-464a-aba2-be8cd995c31b" class="to-do-list">
+            <li>
+                <div class="checkbox checkbox-on"></div>
+                <span class="to-do-children-checked">군필(2019.01 ~ 2020.11)</span></li>
+        </ul>
+        <p id="799199a0-459e-402a-bbdd-0870622f84c8" class="">
+        </p></div>
+</article>
+</body></html>
+
+<!--&lt;!&ndash; Chinese Version &ndash;&gt;-->
+<!--<div class="zh post-container">-->
+<!--    {% capture about_zh %}{% include about/zh.md %}{% endcapture %}-->
+<!--    {{ about_zh | markdownify }}-->
+<!--</div>-->
+
+<!--&lt;!&ndash; English Version &ndash;&gt;-->
+<!--<div class="en post-container">-->
+<!--    {% capture about_en %}{% include about/en.md %}{% endcapture %}-->
+<!--    {{ about_en | markdownify }}-->
+<!--</div>-->
 
 
 {% if site.disqus_username %}
@@ -32,16 +562,18 @@ multilingual: true
 
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "{{site.disqus_username}}";
-    var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
-    var disqus_url = "{{site.url}}{{page.url}}";
+  /* * * CONFIGURATION VARIABLES * * */
+  var disqus_shortname = "{{site.disqus_username}}";
+  var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
+  var disqus_url = "{{site.url}}{{page.url}}";
 
-    (function () {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+  (function () {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
 </script>
 <!-- disqus 公共JS代码 end -->
 {% endif %}
