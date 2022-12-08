@@ -233,4 +233,14 @@ tags:
 <p data-ke-size="size16"><span style="font-family: 'Noto Serif KR';">&nbsp; 이제 응답 헤더 정책을 만들어보자. CloudFront-정책-응답 헤더에서 "사용자 정의 정책"의 "응답 헤더 정책 생성"을 클릭해 응답 헤더 정책을 생성하자. 여기서 "CORS 구성"을 선택하고 각자 상황에 맞게 세팅한 뒤 생성하면 된다.</span></p>
 <p></p><figure class="imageblock alignCenter" data-ke-mobilestyle="widthOrigin" data-origin-width="687" data-origin-height="818"><span data-url="https://blog.kakaocdn.net/dn/MjojC/btrS5zvvul7/7nWHGxmm9xQXpeXP7KUwKk/img.png" data-lightbox="lightbox"><img src="/img/2022-12-08-s3-cloud-front/img_17.png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FMjojC%2FbtrS5zvvul7%2F7nWHGxmm9xQXpeXP7KUwKk%2Fimg.png" onerror="this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';" data-origin-width="687" data-origin-height="818"></span></figure>
 <p></p>
-<p data-ke-size="size16">&nbsp;</p></div>
+<p data-ke-size="size16">&nbsp;</p>
+<p data-ke-size="size16"><span style="font-family: 'Noto Serif KR';">&nbsp; 이제 CloudFront에 매핑한 커스텀 도메인을 통해 외부에서 CloudFront에 접근할 수 있도록 DNS 설정을 해주자. 설정한 CloudFront는 아래와 같이 "배포 도메인 이름"을 가지게 된다.&nbsp;</span></p>
+<p></p>
+<figure class="imageblock alignCenter" data-ke-mobilestyle="widthOrigin" data-origin-width="2570" data-origin-height="500"><span data-url="https://blog.kakaocdn.net/dn/REwGO/btrS7Jxuxj6/twdz25F8YFKorrJ4IwbtIK/img.png" data-lightbox="lightbox"><img src="/img/2022-12-08-s3-cloud-front/img_18.png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FREwGO%2FbtrS7Jxuxj6%2Ftwdz25F8YFKorrJ4IwbtIK%2Fimg.png" onerror="this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';" data-origin-width="2570" data-origin-height="500"></span></figure>
+<p></p>
+<p data-ke-size="size16"><span style="font-family: 'Noto Serif KR';">&nbsp; 이 "배포 도메인 이름"을 통해 클라이언트는 CloudFront에 접근할 수 있다. 커스텀 도메인을 활용해 CloudFront로 접근하게 하려면 커스텀 도메인을 CloudFront "배포 도메인 이름"의 별칭(CNAME)으로 사용하는 레코드가 존재해야 한다. 나는 가비아에서 도메인을 구매했으므로 다음과 같이 가비아에서 DNS 설정을 바꾸어주자.</span></p>
+<p></p>
+<figure class="imageblock alignCenter" data-ke-mobilestyle="widthOrigin" data-origin-width="1702" data-origin-height="198"><span data-url="https://blog.kakaocdn.net/dn/c8Ars4/btrS6XiuYzn/cc7WhKU3dAikFLnRXka8v0/img.png" data-lightbox="lightbox"><img src="/img/2022-12-08-s3-cloud-front/img_19.png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc8Ars4%2FbtrS6XiuYzn%2Fcc7WhKU3dAikFLnRXka8v0%2Fimg.png" onerror="this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';" data-origin-width="1702" data-origin-height="198"></span></figure>
+<p></p>
+<p data-ke-size="size16"><span style="font-family: 'Noto Serif KR';">&nbsp; 다음과 같이 타입을 CNAME, 값/위치에 CloudFront의 "배포 도메인 이름"을 넣어주면 된다.</span></p>
+</div>
