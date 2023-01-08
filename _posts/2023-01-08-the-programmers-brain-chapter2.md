@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "Chapter 2. 신속한 코드 분석
+title:        "Chapter 2. 신속한 코드 분석"
 author:       "yunki kim"
 header-style: text
 catalog:      true
