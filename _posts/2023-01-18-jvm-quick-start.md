@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "JVM 걷핥기"
+title:        "JVM 겉핥기"
 author:       "yunki kim"
 header-style: text
 catalog:      true
