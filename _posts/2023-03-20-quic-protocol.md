@@ -1,3 +1,14 @@
+---
+layout:       post
+title:        "QUIC protocol"
+author:       "yunki kim"
+header-style: text
+catalog:      true
+tags:
+- ComputerScience
+- network
+---
+
 <div class="tt_article_useless_p_margin contents_style"><h2 data-ke-size="size26"><span style="font-family: 'Noto Serif KR';">TCP</span></h2>
 <p data-ke-size="size16"><span style="font-family: 'Noto Serif KR';">&nbsp; TCP는 패킷 스위칭을 하는 컴퓨터 커뮤니케이션 네트워크 호스트들 간에 고신뢰성 프로토콜로 사용하기 위해 1970년대에 고안되었습니다. TCP는 HTTP와 같은 application layer protocol들의 기반으로 사용되고 있으며, 현재는 암호화된 데이터를 송수신하기 위해 때로는TLS도 같이 사용하고 있습니다.</span></p>
 <p style="text-align: left;" data-ke-size="size16"><span style="font-family: 'Noto Serif KR';">&nbsp; TCP는 개발된 직후 부터 현재까지 직간접적으로 많은 사용자 애플리케이션이 사용하고 있는 프로토콜이며 리눅스에 기본으로 내장되어 있습니다. 하지만 TCP가 개발된 후로 현재까지 네트워크 환경에는 많은 변화들이 있었습니다. 완벽한 프로그램이 없는 이유는 기술이 발전하고 환경이 바뀌면서 기존 기술들이 호평받던 이유가 더 이상 통하지 않기 때문입니다. TCP 통신을 위해 사용하는 일부 기술 역시 시간의 흐름에 따라 현대 네트워크 환경에선 최선이라 불릴 수 없게 되었습니다.</span></p>
