@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "Chapter 3-3 프로세스의 연산"
+title:        "Chapter3-3. 프로세스의 연산"
 author:       "yunki kim"
 header-style: text
 catalog:      true
