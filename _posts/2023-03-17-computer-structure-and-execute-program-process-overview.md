@@ -10,7 +10,9 @@ tags:
 - ComputerScience
 ---
 
-<div class="tt_article_useless_p_margin contents_style"><div class="colorscripter-code" style="color: #010101; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position: relative !important; overflow: auto;">
+<div class="tt_article_useless_p_margin contents_style">
+<p data-ke-size="size16"><span style="font-family: 'Noto Serif KR'; color: #333333; text-align: start;">&nbsp; 아래와 같이 "Hello world"를 출력하는 간단한 프로그램은 개발 공부를 처음 시작하는 사람이라면 누구나 한 번쯤은 작성해 봤을 겁니다.<span>&nbsp;</span></span></p>
+<div class="colorscripter-code" style="color: #010101; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position: relative !important; overflow: auto;">
 <table class="colorscripter-code-table" style="margin: 0; padding: 0; border: none; background-color: #fafafa; border-radius: 4px;" cellspacing="0" cellpadding="0" data-ke-align="alignLeft">
 <tbody>
 <tr>
@@ -37,7 +39,7 @@ tags:
 </tbody>
 </table>
 </div>
-<p data-ke-size="size16"><span style="font-family: 'Noto Serif KR';">&nbsp; 위와 같이 "Hello world"를 출력하는 간단한 프로그램은 개발 공부를 처음 시작하는 사람이라면 누구나 한 번쯤은 작성해 봤을 겁니다. 이 프로그램을 실행해 보고는 더 많은 지식들을 얻기 위해 책을 다음 페이지로 넘깁니다. 하지만, 이 간단한 프로그램 동작과정에는 보이지 않는 지식들이 수도 없이 들어있습니다.</span></p>
+<p data-ke-size="size16"><span style="font-family: 'Noto Serif KR';">&nbsp; 이 프로그램을 실행해 보고는 더 많은 지식들을 얻기 위해 책을 다음 페이지로 넘깁니다. 하지만, 이 간단한 프로그램 동작과정에는 보이지 않는 지식들이 수도 없이 들어있습니다.</span></p>
 <p data-ke-size="size16"><span style="font-family: 'Noto Serif KR';">&nbsp; 이 글에서는 위 코드를 예시로 우선 소프트웨어 측면에서 위 프로그램이 실행되기 위한 소프트웨어적인 변환 과정을 설명합니다. 그 후, 하드웨어와 OS 관점에서 동작 과정을 설명하면서 개략적인 컴퓨터 구조를 설명합니다.</span></p>
 <p data-ke-size="size16"><span style="font-family: 'Noto Serif KR';">&nbsp; 이 글은 인텔 x86 아키텍처를 기반으로 작성되었습니다.</span></p>
 <h2 data-ke-size="size26"><span style="font-family: 'Noto Serif KR';"><b>hello.c 텍스트 파일을 오브젝트 파일로 만들기까지</b></span></h2>
