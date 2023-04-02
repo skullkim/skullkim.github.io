@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "Chapter 5.1 프로세스 간 통신"
+title:        "chapter 5-1 프로세스간 통신."
 author:       "yunki kim"
 header-style: text
 catalog:      true
