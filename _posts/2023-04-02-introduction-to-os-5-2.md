@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "chapter 5-2 공유 자원과 임계구역"
+title:        "Chapter5-2. 공유 자원과 임계구역"
 author:       "yunki kim"
 header-style: text
 catalog:      true

@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "3-5 동적 할당 영역과 시스템 호출"
+title:        "Chapter3-5. 동적 할당 영역과 시스템 호출"
 author:       "yunki kim"
 header-style: text
 catalog:      true

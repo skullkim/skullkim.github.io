@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "Chapter 3-4 스레드"
+title:        "Chapter3-4. 스레드"
 author:       "yunki kim"
 header-style: text
 catalog:      true
