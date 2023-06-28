@@ -1,13 +1,13 @@
 {
-  "name": "Hux Blog",
-  "short_name": "Hux Blog",
-  "description": "About an engineer & designer who loves web.",
+  "name": "skullkim Blog",
+  "short_name": "skullkim Blog",
+  "description": "About an engineer who loves web.",
   "icons": [{
-    "src": "icons/128.png",
+    "src": "icons/skull.png",
     "sizes": "128x128",
     "type": "image/png"
   }, {
-    "src": "icons/512.png",
+    "src": "icons/skull.png",
     "sizes": "512x512",
     "type": "image/png"
   }],
