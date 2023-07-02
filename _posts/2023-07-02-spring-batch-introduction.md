@@ -47,6 +47,7 @@ Spring batch infrastructure는 배치 job을 시작하는 컴포넌트와 job ex
 ### Job 실행과 Job 메타데이터 저장
 위에서 언급한 job launcher와 job repository는 실제로 JobLauncher, JobRepository라는 인터페이로 구현돼 있습니다.
 JobLauncher는 스프링 배치 job을 시작하는 엔트리 포인트입니다.
+
 ```java
 package org.springframework.batch.core.launch;
 public interface JobLauncher {
