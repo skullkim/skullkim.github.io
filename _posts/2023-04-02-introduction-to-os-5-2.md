@@ -8,6 +8,7 @@ tags:
 - 도서
 - OS
 - 쉽게 배우는 운영체제
+- ComputerScience
 ---
 
 <div class="tt_article_useless_p_margin contents_style"><p data-ke-size="size16"><span style="font-family: 'Noto Serif KR';">&nbsp; 여러 프로세스가 한정된 자원을 가지고 공동 작업을 하면 여러 문제가 발생할 수 있습니다.</span></p>

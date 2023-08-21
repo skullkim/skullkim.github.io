@@ -8,6 +8,7 @@ tags:
 - 도서
 - OS
 - 쉽게 배우는 운영체제
+- ComputerScience
 ---
 
 <div class="tt_article_useless_p_margin contents_style"><p data-ke-size="size16">&nbsp; OS에서 프로세스는 하나의 작업 단위다. 사용자가 프로그램을 실행하면 프로세스가 된다. 폰노이만 구조에서 프로그램을 실행한다는 것은 해당 코드가 메모리에 올라와 작업이 진행된다는 의미다. 프로그램은 저장장치에 저장되어 있는 정적 상태이고, 프로세스는 실행을 위해 메모리에 올라온 동적인 상태다.</p>

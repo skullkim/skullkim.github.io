@@ -8,6 +8,7 @@ tags:
 - 도서
 - OS
 - 쉽게 배우는 운영체제
+- ComputerScience
 ---
 
 <div class="tt_article_useless_p_margin contents_style"><p data-ke-size="size16"><span style="font-family: 'Noto Serif KR';">&nbsp; 프로세스의 생성과 복사를 이해하기 위해선 우선 시스템 프로그래밍을 이해해야 한다. 프로세스의 생성과 복사를 설명하기 전에 우선 프로세스의 구조를 파악하자.</span></p>

@@ -8,6 +8,7 @@ tags:
 - 도서
 - OS
 - 쉽게 배우는 운영체제
+- ComputerScience
 ---
 
 <div class="tt_article_useless_p_margin contents_style"><p data-ke-size="size16"><span style="font-family: 'Noto Serif KR';">&nbsp; 프로세스 간 통신은 하나의 컴퓨터에 존재하는 여러 프로세스끼리의 통신과 네트워크로 연결된 다른 컴퓨터에 있는 프로세스와의 통신이 있다. 프로세스 간 통신 종류는 다음과 같이 크게 세 종류로 나뉜다.</span></p>

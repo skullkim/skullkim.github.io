@@ -8,6 +8,7 @@ tags:
 - 도서
 - OS
 - 쉽게 배우는 운영체제
+- ComputerScience
 ---
 
 <div class="tt_article_useless_p_margin contents_style"><h2 data-ke-size="size26"><span style="font-family: 'Noto Serif KR';"><b>커널과 인터페이스</b></span></h2>

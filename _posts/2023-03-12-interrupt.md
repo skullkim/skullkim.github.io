@@ -6,6 +6,7 @@ header-style: text
 catalog:      true
 tags:
 - OS
+- ComputerScience
 ---
 
 <div class="tt_article_useless_p_margin contents_style"><p data-ke-size="size16"><span style="font-family: 'Noto Serif KR';">&nbsp; 현대의 범용 PC는 한 개 이상의 CPU와 한 개 이상의 디바이스 컨트롤러가 버스를 통해 이어져 있는 형태를 띠고 있습니다. 버스는 컴포넌트들과 shared memory 간의 접근을 제공합니다. 버스는 data control signal을 싣고 다니는 통로입니다. 각 디바이스 컨트롤러는 특정 유형의 장치들을 제어합니다. 디바이스 컨트롤러에는 로컬 버퍼 스토리지와 레지스터가 있습니다. 디바이스 컨트롤러는 자신이 제어하는 주변 기기와 로컬 버퍼 스토리지 간에 데이터를 이동하는 역할을 합니다.</span></p>

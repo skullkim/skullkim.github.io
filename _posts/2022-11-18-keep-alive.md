@@ -6,6 +6,8 @@ header-style: text
 catalog:      true
 tags:
 - HTTP
+- ComputerScience
+- network
 ---
 
 <div class="tt_article_useless_p_margin contents_style"><h2 data-ke-size="size26"><b>개략적인 HTTP 통신 과정</b></h2>
