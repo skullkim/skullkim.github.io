@@ -74,7 +74,7 @@ ga_domain: skullkim-dev.com
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "KCD Backend engineer(Data Platform team)"
+sidebar-about-description: "KCD Backend Engineer"
 sidebar-avatar: /img/my-profile-image.jpeg
 #sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
