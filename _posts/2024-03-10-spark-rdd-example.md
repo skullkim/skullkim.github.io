@@ -191,6 +191,7 @@ for city, temperature in final_list:
 ```
 
 - 예제 6: map, flatmap
+
 ```python
 # faltmap은 하나의 원소가 array, list 또는 어떠한 컬랙션일 경우
 # 그 원소를 flatten 해서 연산을 적용한다
