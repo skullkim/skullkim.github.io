@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "4. 구조적API 개요"
+title:        "5. 구조적 API 기본 연산"
 author:       "yunki kim"
 header-style: text
 catalog:      true
