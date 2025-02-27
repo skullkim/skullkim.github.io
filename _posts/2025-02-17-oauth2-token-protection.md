@@ -9,6 +9,7 @@ tags:
 ---
 
 - [OpenId Provier 구축 공부 - 1편 (OAuth 2.0)](https://www.skullkim-dev.com/2025/02/13/oidc-oauth2/)
+- [OpenId Provier 구축 공부 - 3편 (OAuth2.0에서 사용자 인증)](https://www.skullkim-dev.com/2025/02/27/oidc-openid/)
 
 # 1. OAuth 토큰 보안 취약점
 
