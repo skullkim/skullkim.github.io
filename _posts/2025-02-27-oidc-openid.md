@@ -9,7 +9,7 @@ tags:
 ---
 
 - [OpenId Provier 구축 공부 - 1편 (OAuth 2.0)](https://www.skullkim-dev.com/2025/02/13/oidc-oauth2/)
-- [OpenId Provier 구축 공부 - 2편 (OAuth 2.0)](https://www.skullkim-dev.com/2025/02/17/oauth2-token-protection/)
+- [OpenId Provier 구축 공부 - 2편 (OAuth 토큰 보안 취약점)](https://www.skullkim-dev.com/2025/02/17/oauth2-token-protection/)
 
 OAuth 2.0은 인증된 사용자 동의를 수집하는 데 사용되고, 처리 절차에서 여러 인증 이벤트를 포함한다. 때문에 일부 개발자들은 OAuth 2.0을 인증 프로토콜이라 생각한다. 하지만 OAuth 2.0은 인증 프로토콜이 아니다.
 
