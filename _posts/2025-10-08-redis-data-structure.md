@@ -220,6 +220,7 @@ GEODIST key member1 member2 unit
     - 모든 아이템을 삭제하면 키도 자동으로 삭제된다 (Stream은 예외)
     - 키가 없는 상태에서 읽기 전용 커맨드를 수행하면 에러를 반환하는 대신 키가 있으나 아이템이 없을 것처럼 동작한다.
 - 키 관련 명령어
+
 ```yaml
 # key 존재 여부 조회
 EXISTS key [key...]
