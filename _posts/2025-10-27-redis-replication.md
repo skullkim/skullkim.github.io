@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "레디스를 캐시로 사용하기"
+title:        "레디스 복제"
 author:       "yunki kim"
 header-style: text
 catalog:      true
