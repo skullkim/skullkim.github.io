@@ -510,6 +510,7 @@ print(first_doc.page_content)
 ## 3.2 LCEL을 사용한 RAG Chain 구현
 
 - LCEL을 사용해서 문서 검색 결과를 PromptTemplate에 문맥으로 포함해 LLM에게 질문하고 답변을 받을 수 있다.
+
 ```python
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
